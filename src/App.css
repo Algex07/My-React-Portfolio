@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+:root{
+--sidebar-flex:1.5;
+--condiv-flex:6;
+--fontsize-p:1.2rem;
+--fontsize-nav:1.6rem;
+--typing-font:3rem;
+
+}
+*
+{
+margin:0;
+padding: 0;
+}
+body
+{
+font-family: 'Raleway';
+}
+.App
+{
+display: flex;
+width: 100vw;
+min-height: 100vh;
+}
+/* .condiv class is for the right side content container*/
+.condiv
+{
+padding: 100px ;
+background-color: #f4f5f9;
+flex:var(--condiv-flex);
+}
+nav
+{
+  
+  color: #000;
+padding: 0px 0px 30px 0px 30px ;
+flex:var(--sidebar-flex);
+background: rgb(214, 219, 215);
+background: linear-gradient(180deg, rgb(81, 216, 142) 50%, rgb(57, 145, 123) 80%);
+}
+nav ul
+{
+  /* font-size:var(--fontsize-nav) ; */
+  /* text-align: center; */
+  list-style-type: none;
+  text-decoration: none;
+  /* color: white !important; */
+}
+nav ul li
+{
+  margin:40px;
+}
+
+.contactUnorderedList {
+  list-style-type: none;
+  text-decoration: none !important;
+}
+
+
+/* css for active class */
+.active
+{
+font-weight: bolder;
+}
+.subtopic
+{
+margin:10px 10px 30px 10px !important;
+}
+p
+{
+font-size: var(--fontsize-p);
+
+margin: 10px;
+}
+.condiv
+{
+  background: linear-gradient(180deg, rgb(6, 180, 99) 50%, rgb(53, 126, 107) 80%) ;
+  /* align-items: flex-start; */
+  
+  text-align: center;
+  font-size: 3vw;
+  
+}
+
+.scroll-text {
+  text-align: center;
+  font-size: 2vw;
+    }
+
+ img{
+   border-radius: 30rem;
+ } 
+.buttonW{
+  background: linear-gradient(180deg, rgb(6, 180, 99) 50%, rgb(224, 219, 196) 80%) ;
+  /* background-color:rgb(131, 243, 131); */
+border-color: lightgreen;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+}
+.scroll{
+  font-size: 20px;
+  
+  
+}
+.footer{
+  
+font-weight: bold;
+}
