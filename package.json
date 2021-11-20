@@ -6,7 +6,6 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "cra-template": "1.1.2",
-    "gh-pages": "^3.2.3",
     "hookrouter": "^1.2.5",
     "react": "^17.0.2",
     "react-animate-on-scroll": "^2.1.5",
@@ -25,7 +24,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +45,7 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
-  }
-}
+    "babel-preset-env": "^1.7.0",
+    "gh-pages": "^3.2.3"
+  }}
+
