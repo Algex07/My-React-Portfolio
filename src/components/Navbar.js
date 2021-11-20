@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navitem from './Navitem';
 import "animate.css/animate.min.css";
 
+//navbar
 class Navbar extends Component {
     constructor(props) {
         super(props);
