@@ -1,29 +1,34 @@
 import React, { Component } from 'react';
-// import Social from '../components/Social';
+import github from '../img/github.png';
+import linkedin from '../img/linkedin.png';
+import email from '../img/email.png';
+import moblie from '../img/mobile.png';
+
 class Contact extends Component {
     render() {
         return (
             <div className="condiv">
+                <h2 className="subtopic">Contact Me</h2>
                 <div className="contact">
                     <ul className="contactUnorderedList">
                         <li className="contactList">
-                            <a href="https://github.com/Algex07" >@github</a>
+                            <a href="https://github.com/Algex07" target="_blank" rel="noreferrer" ><img src={github} alt="logo" className="conimg"></img></a>
+                        </li>
+                        {/* <br></br> */}
+                        <li className="contactList">
+                            <a href="https://linkedin.com/in/amar-algu-09268291" target="_blank" rel="noreferrer" ><img src={linkedin} alt="logo" className="conimg"></img></a>
                         </li>
                         <li className="contactList">
-                            <a href="https://linkedin.com/in/amar-algu-09268291" >LinkedIn</a>
+                            <a href="mailto: [amar.algu@mail.utoronto.ca]" target="_blank" rel="noreferrer"><img src={email} alt="logo" className="conimg"></img></a>
                         </li>
                         <li className="contactList">
-                            <a href="mailto: [amar.algu@mail.utoronto.ca]"> Email me!</a>
-                        </li>
-                        <li className="contactList">
-                            <a href="#Phone">Mobile</a>
+                            <a href="#Phone" target="_blank" rel="noreferrer"><img src={moblie} alt="logo" className="conimg"></img></a>
                         </li>
                     </ul>
-
                 </div>
-
+                <br></br>
                 <footer className="footer">
-                    <p>"Bringing Your Concept to Realisation"</p>
+                    <p>"Bringing Concept to Realisation"</p>
                     <p>&copy; Algex services.</p>
                 </footer>
             </div>

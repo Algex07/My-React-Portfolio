@@ -40,11 +40,9 @@ background: linear-gradient(180deg, rgb(81, 216, 142) 50%, rgb(57, 145, 123) 80%
 }
 nav ul
 {
-  /* font-size:var(--fontsize-nav) ; */
-  /* text-align: center; */
   list-style-type: none;
   text-decoration: none;
-  /* color: white !important; */
+  
 }
 nav ul li
 {
@@ -55,9 +53,6 @@ nav ul li
   list-style-type: none;
   text-decoration: none !important;
 }
-
-
-/* css for active class */
 .active
 {
 font-weight: bolder;
@@ -75,29 +70,50 @@ margin: 10px;
 .condiv
 {
   background: linear-gradient(180deg, rgb(6, 180, 99) 50%, rgb(53, 126, 107) 80%) ;
-  /* align-items: flex-start; */
-  
   text-align: center;
   font-size: 3vw;
   
 }
-
+p{
+  font-weight: bolder;
+}
 .scroll-text {
   text-align: center;
   font-size: 2vw;
     }
 
- img{
+  .profilepic{
    border-radius: 30rem;
  } 
 .buttonW{
-  background: linear-gradient(180deg, rgb(6, 180, 99) 50%, rgb(224, 219, 196) 80%) ;
-  /* background-color:rgb(131, 243, 131); */
-border-color: lightgreen;
+  background: linear-gradient(180deg, rgb(6, 180, 99) 50%, rgb(170, 169, 164) 80%) ;
+  border-color: lightgreen;
+  width: 300px;
+  height: 40px;
+  border-radius: 15px;
+}
+.buttonE{
+  background: linear-gradient(180deg, rgb(153, 228, 193) 50%, rgb(170, 169, 164) 80%) ;
+  border-color: lightgreen;
+  width: 350px;
+  height: 40px;
+  border-radius: 15px;
+}
+.buttonC{
+  background: linear-gradient(180deg, rgb(153, 228, 193) 50%, rgb(170, 169, 164) 80%) ;
+  border-color: lightgreen;
   width: 200px;
   height: 40px;
   border-radius: 15px;
 }
+.box{
+  list-style-type: none;
+  text-decoration: none; 
+}
+.conimg{
+  border-radius: 10px;
+}
+
 .scroll{
   font-size: 20px;
   

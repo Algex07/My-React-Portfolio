@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import "animate.css/animate.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {
   BrowserRouter as Router,
   Route,
