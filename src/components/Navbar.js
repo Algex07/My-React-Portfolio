@@ -33,10 +33,13 @@ class Navbar extends Component {
 
 
                     <Navitem item={<button className="buttonW"  ><h3>Work Experience</h3></button>} tolink="/Experience" activec={this.activeitem}></Navitem>
+                    
+                    <Navitem item={<button className="buttonW"  ><h3>Resume</h3></button>}  tolink="/Resume" activec={this.activeitem}></Navitem>
 
 
                     <Navitem item={<button className="buttonW"  ><h3>Contact</h3></button>} tolink="/contact" activec={this.activeitem}></Navitem>
 
+                    
                 </ul>
             </nav>
         )

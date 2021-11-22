@@ -11,9 +11,9 @@ import Navbar from './components/Navbar';
 import Home from './contents/Home';
 import About from './contents/About';
 import Education from './contents/Education';
-// import  from './contents/Skills';
 import Contact from './contents/Contact';
 import Experience from './contents/Experience';
+import Resume from './contents/Resume';
 function App() {
   return (
     <Router>
@@ -31,10 +31,13 @@ function App() {
         <Route path="/Experience">
           <Experience />
         </Route>
+        <Route path="/Resume">
+          <Resume />
+        </Route>
         <Route path="/contact">
           <Contact />
         </Route>
-      </div>
+         </div>
     </Router>
   );
 }
