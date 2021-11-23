@@ -13,15 +13,15 @@ class Contact extends Component {
                     <ul className="contactUnorderedList">
                         <li className="contactList">
                             <a href="https://github.com/Algex07" target="_blank" rel="noreferrer" ><img src={github} alt="logo" className="conimg"></img></a>
-                        </li>
+                        {/* </li>
                         {/* <br></br> */}
-                        <li className="contactList">
+                        {/* <li className="contactList"> */} 
                             <a href="https://linkedin.com/in/amar-algu-09268291" target="_blank" rel="noreferrer" ><img src={linkedin} alt="logo" className="conimg"></img></a>
-                        </li>
-                        <li className="contactList">
+                        {/* </li>
+                        <li className="contactList"> */}
                             <a href="mailto: [amar.algu@mail.utoronto.ca]" target="_blank" rel="noreferrer"><img src={email} alt="logo" className="conimg"></img></a>
-                        </li>
-                        <li className="contactList">
+                        {/* </li>
+                        <li className="contactList"> */}
                             <a href="#Phone" target="_blank" rel="noreferrer"><img src={moblie} alt="logo" className="conimg"></img></a>
                         </li>
                     </ul>
@@ -30,6 +30,11 @@ class Contact extends Component {
                 <footer className="footer">
                     <p>"Bringing Concept to Realisation"</p>
                     <p>&copy; Algex services.</p>
+                    <div>
+                      <a href="https://github.com/Algex07"target="_blank"rel="noreferrer" ><p>@github</p></a>
+                                               
+                     <a href="https://linkedin.com/in/amar-algu-09268291"target="_blank"rel="noreferrer" ><p>LinkedIn</p></a>
+                      </div>  
                 </footer>
             </div>
         )

@@ -19,6 +19,11 @@ class Home extends Component {
                 <footer class="footer">
                     <p>"Bringing Concept to Realisation"</p>
                     <p>&copy; Algex services.</p>
+                    <div>
+                      <a href="https://github.com/Algex07"target="_blank"rel="noreferrer" ><p>@github</p></a>
+                                               
+                     <a href="https://linkedin.com/in/amar-algu-09268291"target="_blank"rel="noreferrer" ><p>LinkedIn</p></a>
+                      </div>  
                 </footer>
 
 

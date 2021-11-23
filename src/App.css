@@ -104,14 +104,15 @@ p{
   border-color: lightgreen;
   width: 200px;
   height: 40px;
-  border-radius: 15px;
+  border-radius: 50px;
 }
 .box{
   list-style-type: none;
   text-decoration: none; 
 }
 .conimg{
-  border-radius: 10px;
+  padding: 10px;
+  border-radius: 25px;
 }
 
 .scroll{
